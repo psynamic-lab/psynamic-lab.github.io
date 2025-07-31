@@ -1,10 +1,100 @@
-@article{Alice2023example,
-    title={An Example Article},
-    author={Alice, Bob and Charlie},
-    journal={Journal of Examples},
-    volume={12},
-    number={3},
-    pages={123--456},
-    year={2023},
-    publisher={Example Publisher}
+@article{brenner_almost-linear_2024,
+	title = {Almost-{Linear} {RNNs} {Yield} {Highly} {Interpretable} {Symbolic} {Codes} in {Dynamical} {Systems} {Reconstruction}},
+	volume = {37},
+	url = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/40cf27290cc2bd98a428b567ba25075c-Abstract-Conference.html},
+	language = {en},
+	urldate = {2025-04-03},
+	journal = {Advances in Neural Information Processing Systems},
+	author = {Brenner, Manuel and Hemmer, Christoph Jürgen and Monfared, Zahra and Durstewitz, Daniel},
+	month = dec,
+	year = {2024},
+	pages = {36829--36868},
+	file = {Full Text PDF:C\:\\Users\\Manuel\\Zotero\\storage\\AHTWTH96\\Brenner et al. - 2024 - Almost-Linear RNNs Yield Highly Interpretable Symbolic Codes in Dynamical Systems Reconstruction.pdf:application/pdf},
+}
+
+
+
+@inproceedings{brenner_learning_2024,
+	title = {Learning {Interpretable} {Hierarchical} {Dynamical} {Systems} {Models} from {Time} {Series} {Data}},
+	url = {https://openreview.net/forum?id=Vp2OAxMs2s&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)},
+	abstract = {In science, we are often interested in obtaining a generative model of the underlying system dynamics from observed time series. While powerful methods for dynamical systems reconstruction (DSR) exist when data come from a single domain, how to best integrate data from multiple dynamical regimes and leverage it for generalization is still an open question. This becomes particularly important when individual time series are short, and group-level information may help to fill in for gaps in single-domain data. At the same time, averaging is not an option in DSR, as it will wipe out crucial dynamical properties (e.g., limit cycles in one domain vs. chaos in another). Hence, a framework is needed that enables to efficiently harvest group-level (multi-domain) information while retaining all single-domain dynamical characteristics. Here we provide such a hierarchical approach and showcase it on popular DSR benchmarks, as well as on neuroscientific and medical time series. In addition to faithful reconstruction of all individual dynamical regimes, our unsupervised methodology discovers common low-dimensional feature spaces in which datasets with similar dynamics cluster. The features spanning these spaces were further dynamically highly interpretable, surprisingly in often linear relation to control parameters that govern the dynamics of the underlying system. Finally, we illustrate transfer learning and generalization to new parameter regimes.},
+	language = {en},
+	urldate = {2025-01-29},
+	author = {Brenner, Manuel and Weber, Elias and Koppe, Georgia and Durstewitz, Daniel},
+	month = oct,
+	year = {2024},
+    booktitle={13th International Conference on Learning Representations},
+	file = {Full Text PDF:C\:\\Users\\Manuel\\Zotero\\storage\\BPBK6XLW\\Brenner et al. - 2024 - Learning Interpretable Hierarchical Dynamical Syst.pdf:application/pdf},
+}
+
+
+@misc{brenner_uncovering_2025,
+	title = {Uncovering the {Functional} {Roles} of {Nonlinearity} in {Memory}},
+	url = {http://arxiv.org/abs/2506.07919},
+	doi = {10.48550/arXiv.2506.07919},
+	abstract = {Memory and long-range temporal processing are core requirements for sequence modeling tasks across natural language processing, time-series forecasting, speech recognition, and control. While nonlinear recurrence has long been viewed as essential for enabling such mechanisms, recent work suggests that linear dynamics may often suffice. In this study, we go beyond performance comparisons to systematically dissect the functional role of nonlinearity in recurrent networks--identifying both when it is computationally necessary, and what mechanisms it enables. We use Almost Linear Recurrent Neural Networks (AL-RNNs), which allow fine-grained control over nonlinearity, as both a flexible modeling tool and a probe into the internal mechanisms of memory. Across a range of classic sequence modeling tasks and a real-world stimulus selection task, we find that minimal nonlinearity is not only sufficient but often optimal, yielding models that are simpler, more robust, and more interpretable than their fully nonlinear or linear counterparts. Our results provide a principled framework for selectively introducing nonlinearity, bridging dynamical systems theory with the functional demands of long-range memory and structured computation in recurrent neural networks, with implications for both artificial and biological neural systems.},
+	urldate = {2025-06-10},
+	publisher = {arXiv},
+	author = {Brenner, Manuel and Koppe, Georgia},
+	month = jun,
+	year = {2025},
+	note = {arXiv:2506.07919 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Nonlinear Sciences - Chaotic Dynamics, Physics - Computational Physics},
+	annote = {Comment: Preprint under review},
+	file = {Preprint PDF:C\:\\Users\\Manuel\\Zotero\\storage\\GRDWUY8V\\Brenner und Koppe - 2025 - Uncovering the Functional Roles of Nonlinearity in Memory.pdf:application/pdf;Snapshot:C\:\\Users\\Manuel\\Zotero\\storage\\84GDYXDW\\2506.html:text/html},
+}
+
+
+@inproceedings{brenner2024integrating,
+  title={Integrating Multimodal Data for Joint Generative Modeling of Complex Dynamics},
+  author={Brenner, Manuel and Hess, Felix and Koppe, Georgia and Durstewitz, Daniel},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning},
+  pages={4482--4516},
+  year={2024},
+  url={https://proceedings.mlr.press/v235/brenner24a.html}
+}
+
+
+@inproceedings{brenner2022tractable,
+  title={Tractable Dendritic RNNs for Reconstructing Nonlinear Dynamical Systems},
+  author={Brenner, Manuel and Hess, Felix and Mikhaeil, Julian M. and Bereska, Lukas F. and Monfared, Zahra and Kuo, Po-Chun and Durstewitz, Daniel},
+  booktitle={Proceedings of the 39th International Conference on Machine Learning},
+  pages={2292--2320},
+  year={2022},
+  url={https://proceedings.mlr.press/v162/brenner22a.html}
+}
+
+
+
+@inproceedings{goring_out--domain_2024,
+	title = {Out-of-{Domain} {Generalization} in {Dynamical} {Systems} {Reconstruction}},
+	url = {https://proceedings.mlr.press/v235/goring24a.html},
+	abstract = {In science we are interested in finding the governing equations, the dynamical rules, underlying empirical phenomena. While traditionally scientific models are derived through cycles of human insight and experimentation, recently deep learning (DL) techniques have been advanced to reconstruct dynamical systems (DS) directly from time series data. State-of-the-art dynamical systems reconstruction (DSR) methods show promise in capturing invariant and long-term properties of observed DS, but their ability to generalize to unobserved domains remains an open challenge. Yet, this is a crucial property we would expect from any viable scientific theory. In this work, we provide a formal framework that addresses generalization in DSR. We explain why and how out-of-domain (OOD) generalization (OODG) in DSR profoundly differs from OODG considered elsewhere in machine learning. We introduce mathematical notions based on topological concepts and ergodic theory to formalize the idea of learnability of a DSR model. We formally prove that black-box DL techniques, without adequate structural priors, generally will not be able to learn a generalizing DSR model. We also show this empirically, considering major classes of DSR algorithms proposed so far, and illustrate where and why they fail to generalize across the whole phase space. Our study provides the first comprehensive mathematical treatment of OODG in DSR, and gives a deeper conceptual understanding of where the fundamental problems in OODG lie and how they could possibly be addressed in practice.},
+	language = {en},
+	urldate = {2024-10-07},
+	booktitle = {Proceedings of the 41st {International} {Conference} on {Machine} {Learning}},
+	publisher = {PMLR},
+	author = {Göring, Niclas Alexander and Hess, Florian and Brenner, Manuel and Monfared, Zahra and Durstewitz, Daniel},
+	month = jul,
+	year = {2024},
+	note = {ISSN: 2640-3498},
+	pages = {16071--16114},
+	file = {Full Text PDF:C\:\\Users\\Manuel\\Zotero\\storage\\9SA5BWNK\\Göring et al. - 2024 - Out-of-Domain Generalization in Dynamical Systems .pdf:application/pdf},
+}
+
+
+@inproceedings{hess_generalized_2023,
+	title = {Generalized {Teacher} {Forcing} for {Learning} {Chaotic} {Dynamics}},
+	url = {https://proceedings.mlr.press/v202/hess23a.html},
+	abstract = {Chaotic dynamical systems (DS) are ubiquitous in nature and society. Often we are interested in reconstructing such systems from observed time series for prediction or mechanistic insight, where by reconstruction we mean learning geometrical and invariant temporal properties of the system in question (like attractors). However, training reconstruction algorithms like recurrent neural networks (RNNs) on such systems by gradient-descent based techniques faces severe challenges. This is mainly due to exploding gradients caused by the exponential divergence of trajectories in chaotic systems. Moreover, for (scientific) interpretability we wish to have as low dimensional reconstructions as possible, preferably in a model which is mathematically tractable. Here we report that a surprisingly simple modification of teacher forcing leads to provably strictly all-time bounded gradients in training on chaotic systems, and, when paired with a simple architectural rearrangement of a tractable RNN design, piecewise-linear RNNs (PLRNNs), allows for faithful reconstruction in spaces of at most the dimensionality of the observed system. We show on several DS that with these amendments we can reconstruct DS better than current SOTA algorithms, in much lower dimensions. Performance differences were particularly compelling on real world data with which most other methods severely struggled. This work thus led to a simple yet powerful DS reconstruction algorithm which is highly interpretable at the same time.},
+	language = {en},
+	urldate = {2023-09-07},
+	booktitle = {Proceedings of the 40th {International} {Conference} on {Machine} {Learning}},
+	publisher = {PMLR},
+	author = {Hess, Florian and Monfared, Zahra and Brenner, Manuel and Durstewitz, Daniel},
+	month = jul,
+	year = {2023},
+	note = {ISSN: 2640-3498},
+	pages = {13017--13049},
+	file = {Full Text PDF:C\:\\Users\\Manuel\\Zotero\\storage\\AFCTXWLF\\Hess et al. - 2023 - Generalized Teacher Forcing for Learning Chaotic D.pdf:application/pdf},
 }

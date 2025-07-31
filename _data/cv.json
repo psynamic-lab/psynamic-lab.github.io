@@ -1,152 +1,197 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Dr. Manuel Brenner",
+    "email": "manu.brenn@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://psynamic-lab.github.io",
+    "summary": "Junior Group Leader at Goethe University & ESI Frankfurt. My research develops interpretable machine learning models for dynamical systems in neuroscience and psychiatry.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "address": "Im Neuenheimer Feld 205",
+      "postalCode": "69120",
+      "city": "Heidelberg",
+      "countryCode": "DE",
+      "region": "Baden-W\u00fcrttemberg"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=HCUeyg8AAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-1354-7450"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/manuelbrenner"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/manuel-brenner-772261191"
+      },
+      {
+        "network": "Medium",
+        "url": "https://towardsdatascience.com/@manuel.brenner"
       }
-    ]
+    ],
+    "uri": "https://psynamic-lab.github.io"
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "position": "Junior Group Leader, Psynamic Lab",
+      "organization": "Goethe University & Ernst Str\u00fcngmann Institute",
+      "startDate": "2025-09",
+      "summary": "Leading an interdisciplinary group on machine learning for dynamical systems in neuroscience and psychiatry.",
+      "url": ""
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "position": "Postdoctoral Researcher",
+      "organization": "IWR, Heidelberg University",
+      "startDate": "2025-01",
+      "endDate": "2025-08",
+      "summary": "Postdoc in Machine Learning for Human Behavior group under Prof. Georgia Koppe.",
+      "url": ""
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "position": "Researcher, AIHealth Innovation Cluster",
+      "organization": "Heidelberg & Mannheim",
+      "startDate": "2024-07",
+      "endDate": "2024-12",
+      "summary": "Bridge project supporting ML methods in clinical AI settings.",
+      "url": ""
+    },
+    {
+      "position": "PhD Student (Theoretical Neuroscience)",
+      "organization": "Central Institute for Mental Health Mannheim",
+      "startDate": "2019-11",
+      "endDate": "2024-06",
+      "summary": "PhD on interpretable dynamical systems models from multimodal empirical time series. Supervision: Prof. Daniel Durstewitz.",
+      "url": ""
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "education": [
+    {
+      "institution": "Heidelberg University",
+      "area": "Ph.D. in Physics",
+      "studyType": "Doctorate",
+      "startDate": "2019-11",
+      "endDate": "2024-06",
+      "gpa": "1.0 (magna cum laude)"
+    },
+    {
+      "institution": "Heidelberg University",
+      "area": "M.Sc. in Physics",
+      "studyType": "Master",
+      "startDate": "2015",
+      "endDate": "2018"
+    },
+    {
+      "institution": "Heidelberg University",
+      "area": "B.Sc. in Physics",
+      "studyType": "Bachelor",
+      "startDate": "2012",
+      "endDate": "2015"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Learning Interpretable Hierarchical Dynamics Models from Time Series Data",
+      "publisher": "ICLR",
+      "releaseDate": "2025-01-01"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Almost-Linear RNNs Yield Highly Interpretable Symbolic Codes in Dynamical Systems Reconstruction",
+      "publisher": "NeurIPS",
+      "releaseDate": "2024-01-01"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Integrating Multimodal Data for Joint Generative Modeling of Complex Dynamics",
+      "publisher": "ICML",
+      "releaseDate": "2024-01-01"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Krisenhafte Ver\u00e4nderungen in Gehirn und Psyche",
+      "publisher": "Der Nervenarzt (Springer Medizin)",
+      "releaseDate": "2024-01-01"
+    },
+    {
+      "name": "Multimodal Teacher Forcing for Reconstructing Nonlinear Dynamical Systems",
+      "publisher": "AAAI Workshop on MLDS",
+      "releaseDate": "2023-01-01"
+    },
+    {
+      "name": "Tractable Dendritic RNNs for Reconstructing Nonlinear Dynamical Systems",
+      "publisher": "ICML",
+      "releaseDate": "2022-01-01"
+    },
+    {
+      "name": "Out-of-Domain Generalization in Dynamical Systems Reconstruction",
+      "publisher": "ICML",
+      "releaseDate": "2024-01-01"
+    },
+    {
+      "name": "Optimal Network Topologies for Dynamical Systems Reconstruction",
+      "publisher": "ICML",
+      "releaseDate": "2024-01-01"
+    },
+    {
+      "name": "Generalized Teacher Forcing for Learning Chaotic Dynamics",
+      "publisher": "ICML",
+      "releaseDate": "2023-01-01"
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Workshop Organizer: Bernstein Conference 2025",
+      "event": "Bernstein Network Computational Neuroscience",
+      "date": "2025-09-25",
+      "location": "Frankfurt, Germany"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Tutorial Organizer: CNS 2023",
+      "event": "Computational Neuroscience Society",
+      "date": "2023-07-15",
+      "location": "Leipzig, Germany"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Poster Presentation",
+      "event": "Bernstein Conference 2021",
+      "date": "2021-09-01",
+      "location": "Germany"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Talk",
+      "event": "Neuromatch 3.0",
+      "date": "2021-12-01",
+      "location": "Online"
+    },
+    {
+      "name": "Talk",
+      "event": "Dynamics Days 2025",
+      "date": "2025-01-15",
+      "location": "Europe"
+    },
+    {
+      "name": "Talk",
+      "event": "Computational Psychiatry Conference 2025",
+      "date": "2025-04-10",
+      "location": "Europe"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "AI Safety Seminar (Organizer)",
+      "institution": "Heidelberg University",
+      "date": "2025-04-01",
+      "role": "Seminar",
+      "description": "First AI Safety seminar hosted at the institution for undergraduate and graduate students."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "course": "Head Teaching Assistant (2020\u20132024)",
+      "institution": "Heidelberg University",
+      "date": "2020-04-01",
+      "role": "Teaching Assistant",
+      "description": "Organized and graded exercises in Computational Statistics, Time Series Analysis, Dynamical Systems Theory, and Machine Learning for Real-world Problems."
     }
   ]
 }
