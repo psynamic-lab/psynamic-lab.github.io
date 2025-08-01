@@ -7,6 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/dynamic_logo.png" alt="Dynamic Lab Logo" style="height: 60px; margin: 0 15px; vertical-align: middle;"/>
+  <img src="/images/esi_logo.png" alt="ESI Logo" style="height: 60px; margin: 0 15px; vertical-align: middle;"/>
+  <img src="/images/uni_logo.png" alt="University Logo" style="height: 60px; margin: 0 15px; vertical-align: middle;"/>
+</div>
 
 **Machine Learning for Dynamical Systems in Neuroscience & Psychiatry**  
 *Goethe University Frankfurt & Ernst Strüngmann Institute (ESI)*
@@ -18,8 +23,8 @@ We are embedded in the [LOEWE-Center DYNAMIC](https://www.dynamic-center.net/), 
 ## Research Focus
 
 - **Interpretable latent-state models** of neural and behavioral dynamics  
-- **Symbolic representations** and **discrete attractor codes** in RNNs  
-- **Multimodal integration** of brain signals, behavior, and environment  
+- **Symbolic representations** in RNNs  
+- **Multimodal integration** of brain signals, behavior, and prior data  
 - **Network-based modeling** of psychiatric disorders and perturbations  
 - **Bridging AI and neuroscience** for clinical and translational insight
 

@@ -21,10 +21,10 @@ repository               : "psynamic-lab/psynamic-lab.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Dr. Manuel Brenner"
-  pronouns         : "he/him"
-  bio              : "Junior Group Leader at Goethe University & ESI Frankfurt. My research develops interpretable machine learning models for dynamical systems in neuroscience and psychiatry."
+#
+  bio              : "Junior Group Leader at Goethe University & ESI Frankfurt. My research develops interpretable MLfor dynamical systems in neuroscience and psychiatry."
   location         : "Frankfurt & Heidelberg, Germany"
   employer         : "Psynamic Lab – Goethe University / ESI Frankfurt"
   uri              : "https://psynamic-lab.github.io"
@@ -58,7 +58,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
